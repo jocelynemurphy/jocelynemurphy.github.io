@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&family=Noto+Serif+KR:wght@700&display=swap');
+
 .container {
   padding: 0 2rem;
+  background-color: #F1EbE3
+}
+
+.post {
+  padding: 0 2rem;
+  background-color: #F1EbE3
 }
 
 .main {
@@ -10,13 +18,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #F1EbE3
 }
 
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #E7E2D5;
+  background-color: #F1EbE3;
   justify-content: center;
   align-items: center;
 }
@@ -43,6 +53,9 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Noto Serif KR', serif;
+  color: black;
 }
 
 .title,
@@ -63,6 +76,18 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.h1 {
+  font-family: 'Noto Serif KR', serif;
+  color: black;
+  font-size: 2.0rem;
+}
+.h2 {
+  font-family: 'Noto Serif KR', serif;
+  color: rgb(96, 88, 79);
+  font-size: 1.2rem;
+  font-style: italic;
 }
 
 .grid {
