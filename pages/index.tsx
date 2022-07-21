@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome! I'm Joss.
+          {`Welcome! I'm Joss.`}
         </h1>
         <p className={styles.description}>
           Check out these pages:{' '}
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
           </Link>
         </p>
         <p className={styles.code}>
-          <Link href="/whyidowhatido">
+          <Link href="https://jocelynemurphy.ca/">
             <a>old website</a>
           </Link>
         </p>

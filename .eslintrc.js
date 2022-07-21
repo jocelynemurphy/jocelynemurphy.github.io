@@ -21,7 +21,7 @@ module.exports = {
     '@typescript-eslint'
   ],
   'rules': {
-    'quotes': ['error', 'single'],
+    'quotes': ['warn', `backtick`],
     // we want to force semicolons
     'semi': ['error', 'always'],
     // we use 2 spaces to indent our code

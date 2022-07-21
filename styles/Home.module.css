@@ -6,8 +6,25 @@
 }
 
 .post {
-  padding: 0 2rem;
-  background-color: #F1EbE3
+  padding: 8rem 15vw;
+  background-color: #F1EbE3;
+  font-family: 'Avenir', sans-serif;
+}
+
+.post-titles {
+  font-family: 'Noto Serif KR', serif;
+}
+
+.post-body {
+  padding: 0 4rem;
+  background-color: #F1EbE3;
+}
+
+.box {
+  background:"white";
+  padding:"5px";
+  margin:"3px";
+  border-radius:'5px';
 }
 
 .main {
