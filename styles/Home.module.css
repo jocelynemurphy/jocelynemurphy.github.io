@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&family=Noto+Serif+KR:wght@700&display=swap');
 
+
 .container {
   padding: 0 2rem;
   background-color: #F1EbE3
 }
 
 .post {
-  padding: 8rem 15vw;
+  padding: 0rem 0vw;
+  max-width: 800px;
+  margin: auto;  
   background-color: #F1EbE3;
   font-family: 'Avenir', sans-serif;
 }
 
-.post-titles {
+.post_titles {
   font-family: 'Noto Serif KR', serif;
 }
 
@@ -28,7 +31,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 72vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -42,10 +45,13 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #E7E2D5;
+  border-top: 1px solid #e1ddd2;
   background-color: #F1EbE3;
   justify-content: center;
   align-items: center;
+  font-family: 'Avenir', sans-serif;
+  color: #c8c3b7;
+  margin-top: 30px;
 }
 
 .footer a {
@@ -68,6 +74,7 @@
 
 .title {
   margin: 0;
+  margin-bottom: 10px;
   line-height: 1.15;
   font-size: 4rem;
   font-weight: bold;
@@ -81,18 +88,24 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-family: 'Avenir', sans-serif;
+  font-size: 1.3rem;
 }
 
 .code {
-  background: #fafafa;
+  background: #e2ded8;
   border-radius: 5px;
-  padding: 0.75rem;
+  padding: 0.55rem;
+  margin-left: 8px;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.code:hover{
+  background: #d6d3cd;
 }
 
 .h1 {
@@ -105,6 +118,11 @@
   color: rgb(96, 88, 79);
   font-size: 1.2rem;
   font-style: italic;
+}
+.h2beige {
+  font-family: 'Noto Serif KR', serif;
+  /* color: rgb(181, 173, 164); */
+  font-size: 2rem;
 }
 
 .grid {

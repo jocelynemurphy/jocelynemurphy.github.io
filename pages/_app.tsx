@@ -8,10 +8,13 @@ import styles from '../styles/Home.module.css';
 function MyApp({ Component, pageProps } : AppProps) {
   return (
     <>
-      <Component {...pageProps} />
-      <footer className={styles.footer}>
-         &copy; <p>  Jocelyne Murphy {new Date().getFullYear()} </p>
-      </footer>
+      <div className={styles.container}>
+        <a href="/" className={styles.h2beige}><p> 	&#10032; </p></a>
+        <Component {...pageProps} />
+        <footer className={styles.footer}>
+         &copy; <p><a href="/">  Jocelyne Murphy {new Date().getFullYear()} </a></p>
+        </footer>
+      </div>
     </>
   );
 }
