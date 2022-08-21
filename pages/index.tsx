@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         </p> */}
         <p className={styles.description}>
           If you want to cut to the chase, 
-          <a className={styles.code} href="/assets/jocelyne_murphy_software_resume.pdf" target="_blank">download my resume. </a> 
+          <a className={styles.code} href="./assets/jocelyne_murphy_software_resume.pdf" target="_blank">download my resume. </a> 
         </p>
         <p className={styles.description}>
           This site is a work in progress — learn more about my previous work by visiting my 
