@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           <a className={styles.code} href="/whyidowhatido">download my resume. </a> 
         </p> */}
         <p className={styles.description}>
-          Have a nice day! &#x263B; 
+          Have a nice day!  &#x263B; 
         </p>
       </main>
     </>
